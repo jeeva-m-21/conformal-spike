@@ -1,0 +1,17 @@
+{
+  "index": 22,
+  "bib_key": "chen2025indirect",
+  "title": "Indirect Exposure Training for Robust Time-Series CAN Bus Intrusion Detection",
+  "authors": [
+    "Hyunjun Jo",
+    "Deok-Hwan Kim"
+  ],
+  "year": 2025,
+  "venue": "IEEE Access",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/access.2025.3644944",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

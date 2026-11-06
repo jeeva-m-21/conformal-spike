@@ -1,0 +1,21 @@
+{
+  "index": 6,
+  "bib_key": "knapp2025efficacy",
+  "title": "Efficacy of Spiking Neural Networks for Intrusion Detection in Cyber-Physical Systems",
+  "authors": [
+    "Leonard Knapp",
+    "Sven Nitzsche",
+    "Matthias Börsig",
+    "Alexandru Vasilache",
+    "Ingmar Baumgart",
+    "Juergen Becker"
+  ],
+  "year": 2025,
+  "venue": "IEEE International Conference on Cyber-Physical Security and AI",
+  "venue_type": "Conference (IEEE)",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1109/cyber-ai66431.2025.11233776",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": "pdfs/06_knapp2025efficacy.pdf"
+}

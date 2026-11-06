@@ -1,0 +1,20 @@
+{
+  "index": 12,
+  "bib_key": "wang2026canbus",
+  "title": "CAN Bus Intrusion Detection Based on Deep Learning With Data Augmentation and Feature Enhancement",
+  "authors": [
+    "Xiang Wang",
+    "Jian Zhao",
+    "Pengbo Liu",
+    "Nianmin Yao",
+    "Zheng Xu"
+  ],
+  "year": 2026,
+  "venue": "IEEE Transactions on Vehicular Technology (TVT)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/tvt.2025.3603056",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

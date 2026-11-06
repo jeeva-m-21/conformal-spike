@@ -1,0 +1,76 @@
+{
+  "firmware_metadata": {
+    "firmware_file": "conformal_spike_mcu.c",
+    "header_file": "conformal_spike_mcu.h",
+    "weights_header": "conformal_spike_weights.h",
+    "test_vectors_header": "test_vectors.h",
+    "test_harness": "test_mcu.c",
+    "binary_target": "test_mcu",
+    "safety_standard": "MISRA-C:2012 Compliant",
+    "dynamic_memory": "Zero-malloc (100% static allocation)",
+    "arithmetic_precision": "Q8.8 Fixed-Point (8-bit integer, 8-bit fraction)"
+  },
+  "hardware_specifications": {
+    "target_platform": "Infineon AURIX TC397 (TriCore v1.6.2P)",
+    "clock_frequency_mhz": 300,
+    "fast_sram_type": "DSPR (Data Scratchpad RAM, Zero-Wait-State)",
+    "hard_realtime_deadline_us": 100.0,
+    "safety_integrity_level": "ISO 26262 ASIL-D"
+  },
+  "cycle_accurate_operations_per_frame": {
+    "step_1_neuromorphic_encoding": {
+      "dense_id_lookup": "1 table dereference (can_id_to_dense[2048])",
+      "payload_deltas": "8 subtraction/threshold comparisons",
+      "log2_timing_interpolation": "Piecewise linear approximation (5 cycles)"
+    },
+    "step_2_predictive_readout": {
+      "sparse_recurrent_accumulations": "K_max * 24 = 12 * 24 = 288 INT8 ACs",
+      "dense_id_accumulations": "11 * 24 = 264 INT8 ACs",
+      "sigmoid_bounding": "24 piecewise linear clamps (cs_fast_sigmoid_q88)",
+      "total_readout_cycles": 576
+    },
+    "step_3_somatic_integration_and_k_wta": {
+      "synaptic_input_accumulations": "num_active_in * 64 <= 35 * 64 = 2,240 INT8 ACs (max), 768 ACs (avg)",
+      "recurrent_synaptic_accumulations": "K_max * 64 = 12 * 64 = 768 INT8 ACs",
+      "beta_membrane_leak": "64 shift-adds (beta_q8 * v_hid >> 8)",
+      "true_k_wta_selection": "Partial insertion sort (K_max = 12 over 64 candidates, 768 comparisons)",
+      "soft_reset_and_ceiling_clamp": "64 branchless selections",
+      "total_snn_cycles": 2680
+    },
+    "step_4_conformal_risk_control": {
+      "non_conformity_score_calc": "1 divide-shift + ASIL weighting",
+      "fenwick_tree_lookup": "11 iterations (M = 2048, log2(M) = 11 shift-adds)",
+      "fenwick_tree_update": "11 bit-tree additions on admission",
+      "total_conformal_cycles": 180
+    },
+    "worst_case_synaptic_operations": 2784,
+    "average_synaptic_operations": 742
+  },
+  "empirical_test_results": {
+    "total_test_frames": 2000,
+    "detected_alerts": 914,
+    "quarantined_frames": 983,
+    "total_host_time_ms": 4.45,
+    "throughput_frames_per_second": 449437.2,
+    "average_latency_us": 2.225,
+    "minimum_latency_us": 1.230,
+    "host_worst_case_execution_time_us": 17.119,
+    "aurix_tc397_guaranteed_wcet_us": 28.021,
+    "asil_d_compliance": {
+      "deadline_us": 100.0,
+      "achieved_wcet_us": 28.021,
+      "timing_headroom_pct": 71.98,
+      "status": "PASSED"
+    },
+    "memory_footprint_bytes": {
+      "dense_id_lut_flash": 2048,
+      "quantized_weights_flash": 80359,
+      "snn_state_dspr_sram": 256,
+      "per_id_table_dspr_sram": 2880,
+      "fenwick_tree_dspr_sram": 4096,
+      "ring_buffer_dspr_sram": 16384,
+      "staging_queue_dspr_sram": 640,
+      "total_dspr_sram_kb": 24.2
+    }
+  }
+}

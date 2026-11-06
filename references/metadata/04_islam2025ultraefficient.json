@@ -1,0 +1,20 @@
+{
+  "index": 4,
+  "bib_key": "islam2025ultraefficient",
+  "title": "Ultra-Efficient Network Intrusion Detection Implemented on Spiking Neural Network Hardware",
+  "authors": [
+    "Rashedul Islam",
+    "Chris Yakopcic",
+    "Nayim Rahman",
+    "Shahanur Alam",
+    "Tarek M. Taha"
+  ],
+  "year": 2025,
+  "venue": "IEEE 68th International Midwest Symposium on Circuits and Systems (MWSCAS)",
+  "venue_type": "Conference (IEEE)",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1109/mwscas53549.2025.11244390",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

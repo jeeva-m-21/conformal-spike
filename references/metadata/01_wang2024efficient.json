@@ -1,0 +1,20 @@
+{
+  "index": 1,
+  "bib_key": "wang2024efficient",
+  "title": "An efficient intrusion detection model based on convolutional spiking neural network",
+  "authors": [
+    "Zhen Wang",
+    "Fuad A. Ghaleb",
+    "Anazida Zainal",
+    "Maheyzah Md Siraj",
+    "Xing Lu"
+  ],
+  "year": 2024,
+  "venue": "Scientific Reports (Nature)",
+  "venue_type": "Journal",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1038/s41598-024-57691-x",
+  "abstract": "AbstractMany intrusion detection techniques have been developed to ensure that the target system can function properly under the established rules. With the booming Internet of Things (IoT) applications, the resource-constrained nature of its devices makes it urgent to explore lightweight and high-performance intrusion detection models. Recent years have seen a particularly active application of deep learning (DL) techniques. The spiking neural network (SNN), a type of artificial intelligence that is associated with sparse computations and inherent temporal dynamics, has been viewed as a potential candidate for the next generation of DL. It should be noted, however, that current research into SNNs has largely focused on scenarios where limited computational resources and insufficient power sources are not considered. Consequently, even state-of-the-art SNN solutions tend to be inefficient. In this paper, a lightweight and effective detection model is proposed. With the help of rational algorithm design, the model integrates the advantages of SNNs as well as convolutional neural networks (CNNs). In addition to reducing resource usage, it maintains a high level of classification accuracy. The proposed model was evaluated against some current state-of-the-art models using a comprehensive set of metrics. Based on the experimental results, the model demonstrated improved adaptability to environments with limited computational resources and energy sources.",
+  "pdf_url": "https://www.nature.com/articles/s41598-024-57691-x.pdf",
+  "local_pdf": "pdfs/01_wang2024efficient.pdf"
+}

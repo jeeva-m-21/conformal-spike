@@ -1,0 +1,17 @@
+{
+  "index": 21,
+  "bib_key": "kim2025fedcaliber",
+  "title": "Fed-CALiBER: Federated Lightweight BERT Intrusion Detection in CAN Networks",
+  "authors": [
+    "Hamman Aryo Bimmo",
+    "Budi Rahardjo"
+  ],
+  "year": 2025,
+  "venue": "IEEE Access",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/access.2025.3616784",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

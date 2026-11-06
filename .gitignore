@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / Firmware build artifacts
+firmware/test_mcu
+*.o
+*.obj
+*.exe
+*.so
+*.dylib
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Paper directory
+paper/
+
+# Editor / IDE settings & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Research literature PDFs (100MB+)
+references/pdfs/
+
+# Internal session handoff logs
+HANDOFF.md
+results/DIAGNOSTIC_ISSUES_LOG.md
+
+# Documentation and reports
+!README.md
+!docs/**/*.md
+!docs/*.md
+!results/EXPERIMENTAL_RESULTS_REPORT.md

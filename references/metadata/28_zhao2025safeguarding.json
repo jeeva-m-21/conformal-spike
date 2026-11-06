@@ -1,0 +1,21 @@
+{
+  "index": 28,
+  "bib_key": "zhao2025safeguarding",
+  "title": "Safeguarding GRU-Based Intrusion Detection Systems From Adversarial Attacks in In-Vehicle Networks",
+  "authors": [
+    "Haihang Zhao",
+    "Yi Wang",
+    "Anyu Cheng",
+    "Shanshan Wang",
+    "Jing Yuan",
+    "Hongrong Wang"
+  ],
+  "year": 2025,
+  "venue": "IEEE Internet of Things Journal (JIOT)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/jiot.2024.3524504",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

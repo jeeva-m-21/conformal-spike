@@ -1,0 +1,21 @@
+{
+  "index": 14,
+  "bib_key": "liu2026mste",
+  "title": "MSTE-CAN: Multi-channel Spatial–Temporal Encoding and Coordinated Multi-scale Attention for CAN-Bus Intrusion Detection",
+  "authors": [
+    "Luofei Jia",
+    "Jian Zhang",
+    "Lingxuan Li",
+    "LingYun Yan",
+    "Dafei Lin",
+    "Zhongyi Zhou"
+  ],
+  "year": 2026,
+  "venue": "Computers & Security (Elsevier)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1016/j.cose.2026.105133",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

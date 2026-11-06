@@ -1,0 +1,17 @@
+{
+  "index": 19,
+  "bib_key": "khreasat2026relational",
+  "title": "Relational Modelling for Automotive Cybersecurity: A Graph Neural Network Approach on Controller Area Networks",
+  "authors": [
+    "Mohammad Khalaf Khreasat",
+    "Gabriel Villarrubia González"
+  ],
+  "year": 2026,
+  "venue": "Sensors (MDPI)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.3390/s26102964",
+  "abstract": "A central open question in automotive intrusion detection is not merely whether relational representations of Controller Area Network (CAN) traffic improve performance, but which aspects of CAN traffic structure transfer robustly across attacks and which do not transfer across vehicle platforms, and why. To investigate this question systematically, we develop a lightweight intrusion-detection framework combining statistical traffic descriptors, structural identifier transition features, and graph topology representations extracted from sliding windows of CAN frames. Because CAN is a broadcast-only bus with no request–response mechanism, each ECU independently transmits its identifiers at fixed periodic rates; accordingly, the structural and graph-based features capture the temporal scheduling regularity of identifier broadcasts, not directed inter-ECU communication dependencies. Stress-testing the framework under cross-attack and cross-dataset transfer reveals a clear four-level hierarchy: (1) statistical features collapse under cross-attack transfer (ROC-AUC as low as 0.009), failing to generalise beyond the attack type seen during training; (2) structural transition features are the most robust form of representation, maintaining high cross-attack performance (ROC-AUC &gt; 0.999) across all evaluated scenarios within the same vehicle platform; (3) graph topology features are scenario-dependent, achieving high robustness in DoS-trained scenarios but producing sub-random results in Fuzzy-trained scenarios, exposing a sensitivity to injection density profiles; and (4) the hybrid combination provides the strongest overall operational package, consistently across four classifiers. Cross-dataset transfer to the ROAD dataset reveals the precise boundary conditions of transferability: structural representations transfer only when an attack perturbs identifier transition regularity (correlated signal attacks, ROC-AUC = 0.81–0.83), while attacks that affect only payload semantics (speedometer) or exploit identifier–space novelty (fuzzing) lie outside the detection scope of transition-based features, regardless of the vehicle platform. A vehicle-specific calibration experiment further shows that the correlated-attack generalization gap can be closed with as little as 10% of target-vehicle normal traffic, whereas speedometer attacks remain structurally invisible by design. A key contribution of this work is therefore a transparent approach for identifying when relational CAN representations transfer and when they do not—a finding that is more scientifically valuable than a uniformly optimistic performance claim and which provides concrete guidance for practitioners designing cross-platform automotive IDS.",
+  "pdf_url": "https://www.mdpi.com/1424-8220/26/10/2964/pdf",
+  "local_pdf": null
+}

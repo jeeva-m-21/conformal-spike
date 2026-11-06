@@ -1,0 +1,21 @@
+{
+  "index": 23,
+  "bib_key": "tavasoli2026gemcan",
+  "title": "GEM-CAN: A real-world dataset of CAN-bus attack scenarios for connected vehicle testbeds",
+  "authors": [
+    "Mahsa Tavasoli",
+    "Abdolhossein Sarrafzadeh",
+    "Ali Karimoddini",
+    "Tienake Phuapaiboon",
+    "Milad Khaleghi",
+    "Daniel Tobias"
+  ],
+  "year": 2026,
+  "venue": "Data in Brief (Elsevier)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1016/j.dib.2026.112805",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

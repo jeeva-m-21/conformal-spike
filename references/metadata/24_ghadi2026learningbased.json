@@ -1,0 +1,17 @@
+{
+  "index": 24,
+  "bib_key": "ghadi2026learningbased",
+  "title": "Learning-Based Intrusion Detection Systems for In-Vehicle Networks: A Survey and Taxonomical Benchmarking",
+  "authors": [
+    "Athar Ghadi",
+    "Tauheed Khan Mohd"
+  ],
+  "year": 2026,
+  "venue": "Journal of the Brazilian Computer Society (Springer/SBC)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.5753/jbcs.2026.6140",
+  "abstract": "The Controller Area Network (CAN) bus continues to serve as the core communication backbone of modern vehicles. However, its original design did not incorporate fundamental security mechanisms, leaving in-vehicle networks vulnerable to cyberattacks such as spoofing, replay, message injection, and denial-of-service. As a result, Intrusion Detection Systems (IDSs) have become an essential component of automotive cybersecurity, providing continuous monitoring of CAN traffic to identify malicious behavior. In recent years, researchers have increasingly turned to intelligent IDS solutions based on Machine Learning (ML), Deep Learning (DL), and hybrid learning approaches to enhance detection capability. Although many of these studies report impressive detection accuracy, their evaluation practices often vary significantly, and claims related to real-time performance or lightweight deployment are frequently made without sufficient practical validation. This survey provides a structured, deployment-focused review of learning-based IDSs for CAN bus security published between 2019 and 2025. Building on prior surveys that emphasize detection accuracy and high-level method categorization, this work evaluates IDS approaches from a practical perspective by considering detection performance alongside computational efficiency, real-time feasibility, and deployment readiness in resource-constrained automotive environments. ML-based, DL-based, and hybrid IDS approaches are organized within a unified taxonomy and systematically compared across model architectures, attack scenarios, datasets, real-time feasibility, lightweight design claims, and validation strategies. A key contribution of this survey is the introduction of explicit and consistent criteria for labeling IDSs as lightweight, real-time, or deployable, based only on substantiated evidence such as ECU-oriented runtime analysis, embedded evaluation, or real-vehicle experimentation. Through a set of unified comparative tables, the survey highlights common evaluation gaps, and mismatches between reported performance and practical feasibility.",
+  "pdf_url": "https://sol.sbc.org.br/journals/index.php/jbcs/article/download/6140/3642",
+  "local_pdf": "pdfs/24_ghadi2026learningbased.pdf"
+}

@@ -1,0 +1,20 @@
+{
+  "index": 11,
+  "bib_key": "hellemans2025toward",
+  "title": "Toward a Real-Time Intrusion Detection System for In-Vehicle Networks",
+  "authors": [
+    "Wouter Hellemans",
+    "Laurens Le Jeune",
+    "Md Masoom Rabbani",
+    "Bart Preneel",
+    "Nele Mentens"
+  ],
+  "year": 2025,
+  "venue": "IEEE Transactions on Intelligent Transportation Systems (T-ITS)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/tits.2025.3590301",
+  "abstract": "",
+  "pdf_url": "https://arxiv.org/pdf/2403.04586.pdf",
+  "local_pdf": "pdfs/11_hellemans2025toward.pdf"
+}

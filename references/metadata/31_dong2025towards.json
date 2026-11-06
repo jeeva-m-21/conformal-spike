@@ -1,0 +1,14 @@
+{
+  "index": 31,
+  "bib_key": "dong2025towards",
+  "title": "Towards Ultra-Low Latency: Binarized Neural Networks on FPGA for In-Vehicle CAN Security",
+  "authors": [],
+  "year": 2025,
+  "venue": "arXiv preprint arXiv:2511.00828",
+  "venue_type": "Preprint (arXiv)",
+  "pillar": "Hardware/Edge",
+  "doi": "10.48550/arXiv.2511.00828",
+  "abstract": "",
+  "pdf_url": "https://arxiv.org/pdf/2511.00828v1.pdf",
+  "local_pdf": "pdfs/31_dong2025towards.pdf"
+}

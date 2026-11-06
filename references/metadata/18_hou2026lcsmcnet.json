@@ -1,0 +1,19 @@
+{
+  "index": 18,
+  "bib_key": "hou2026lcsmcnet",
+  "title": "LCSMC-Net: Lightweight CAN Intrusion Detection via Multi-Scale Convolution and Compression",
+  "authors": [
+    "Mengdi Hou",
+    "Bitie Lan",
+    "Chenghua Tang",
+    "Jianbo Huang"
+  ],
+  "year": 2026,
+  "venue": "Sensors (MDPI)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.3390/s26041399",
+  "abstract": "The Controller Area Network (CAN) protocol lacks native authentication mechanisms, exposing modern vehicles to critical security threats. While deep learning-based intrusion detection systems show promise, existing solutions require computational resources far exceeding automotive-grade microcontroller constraints, hindering practical embedded deployment. This paper proposes LCSMC-Net, an ultra-lightweight neural architecture for resource-constrained CAN intrusion detection. The framework integrates three innovations: (1) Separable Multiscale Convolution Lite (SMC-Lite) blocks capturing multitemporal attack patterns with minimal parameters; (2) Lightweight Channel-Temporal Attention (LCTA) achieving linear O(N) complexity through adaptive pruning; and (3) 6-dimensional CAN-optimized features exploiting protocol-specific characteristics for aggressive compression. The framework employs Bayesian hyperparameter optimization and knowledge distillation for systematic model compression. Extensive experiments on CAN and CAN-FD datasets demonstrate that LCSMC-Net achieves 99.89% accuracy with only 9401 parameters and 2.84M FLOPs, outperforming existing solutions while meeting real-time constraints of automotive embedded systems, providing a viable edge AI deployment solution.",
+  "pdf_url": "https://www.mdpi.com/1424-8220/26/4/1399/pdf",
+  "local_pdf": null
+}

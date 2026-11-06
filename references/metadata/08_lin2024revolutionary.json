@@ -1,0 +1,18 @@
+{
+  "index": 8,
+  "bib_key": "lin2024revolutionary",
+  "title": "Revolutionary intrusion detection in cloud computing through deep spiking neural networks with optimized feature selection",
+  "authors": [
+    "Yongxing Lin",
+    "Xiaoyan Xu",
+    "Hongyun Xu"
+  ],
+  "year": 2024,
+  "venue": "Cluster Computing (Springer)",
+  "venue_type": "Journal",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1007/s10586-024-04603-3",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

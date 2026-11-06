@@ -1,0 +1,19 @@
+{
+  "index": 10,
+  "bib_key": "vishwanath2025featureoptimized",
+  "title": "Feature-Optimized Intrusion Detection Based on a Hybrid Spiking Neural Network for the Internet of Things",
+  "authors": [
+    "Manu Gorur Vishwanath",
+    "Ananda Babu Jayachandra",
+    "Chin-Ling Chen",
+    "Ling-Chun Liu"
+  ],
+  "year": 2025,
+  "venue": "Journal of Artificial Intelligence and Technology",
+  "venue_type": "Journal",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.37965/jait.2025.0848",
+  "abstract": "The intrusion detection system (IDS) has gained significant attention due to its ability to enhance network utilization. However, different types of IDS approaches have been developed in traditional research that concentrate on recognizing intrusions from datasets with the help of classification. This research proposes a Lyrebird Optimization Algorithm (LOA) with Beta Hebbian Learning-based Elite Spike Neural Network (BHLESNN) for IDS classification. The LOA selects optimal features and reduces redundancy because it can explore and exploit the search space, thereby enhancing classifier performance. The usage of the beta function for spike encoding enhances temporal precision and allows a better presentation of dynamic features in network traffic. Furthermore, the network’s capability to learn temporal and spatial patterns makes it efficient in detecting IDS. The metrics, including precision, accuracy, F1-score, and recall, are assessed to show the efficiency of LOA-BHLESNN. The proposed LOA-BHLESNN achieves accuracy of 99.96%, 99.94% and 99.81% for ToN-IoT, BoT-IoT, and IoT-23 datasets, respectively, which is better than Dual Phase Feature Extraction-Conditional Tabular Generative Adversarial Networks(DPFEN-CTGAN).",
+  "pdf_url": null,
+  "local_pdf": "pdfs/10_vishwanath2025featureoptimized.pdf"
+}

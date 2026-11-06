@@ -1,0 +1,17 @@
+{
+  "index": 9,
+  "bib_key": "ivadinovi2024resource",
+  "title": "Resource efficient Internet-of-Things intrusion detection using Spiking Neural Networks",
+  "authors": [
+    "Miloš Živadinović",
+    "Dejan Simić"
+  ],
+  "year": 2024,
+  "venue": "Annals of Computer Science and Information Systems (FedCSIS)",
+  "venue_type": "Conference",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.15439/2024f8800",
+  "abstract": "",
+  "pdf_url": "https://annals-csis.org/Volume_39/drp/pdf/8800.pdf",
+  "local_pdf": null
+}

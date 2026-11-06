@@ -1,0 +1,14 @@
+{
+  "index": 29,
+  "bib_key": "liu2026mids",
+  "title": "MIDS: Detecting Stealthy Masquerade and Tampering Attacks on CAN Bus via Bidirectional Mamba",
+  "authors": [],
+  "year": 2026,
+  "venue": "arXiv preprint arXiv:2606.18599",
+  "venue_type": "Preprint (arXiv)",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.48550/arXiv.2606.18599",
+  "abstract": "",
+  "pdf_url": "https://arxiv.org/pdf/2606.18599v1.pdf",
+  "local_pdf": "pdfs/29_liu2026mids.pdf"
+}

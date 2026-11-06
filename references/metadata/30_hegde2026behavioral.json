@@ -1,0 +1,14 @@
+{
+  "index": 30,
+  "bib_key": "hegde2026behavioral",
+  "title": "Behavioral Residualization for Unsupervised Intrusion Detection in Automotive CAN Networks",
+  "authors": [],
+  "year": 2026,
+  "venue": "arXiv preprint arXiv:2608.05548",
+  "venue_type": "Preprint (arXiv)",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.48550/arXiv.2608.05548",
+  "abstract": "",
+  "pdf_url": "https://arxiv.org/pdf/2608.05548v1.pdf",
+  "local_pdf": "pdfs/30_hegde2026behavioral.pdf"
+}

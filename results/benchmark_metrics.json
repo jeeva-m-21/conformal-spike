@@ -1,0 +1,1112 @@
+{
+  "seeds": [
+    42
+  ],
+  "table_i_regime_shifts": {
+    "Heuristic Static (mu + 3*sigma)": {
+      "Stationary": {
+        "mean": 1.6199999999999999,
+        "std": 0.0,
+        "ci_low": 1.6199999999999999,
+        "ci_high": 1.6199999999999999
+      },
+      "Highway": {
+        "mean": 2.41,
+        "std": 0.0,
+        "ci_low": 2.41,
+        "ci_high": 2.41
+      },
+      "Dyno": {
+        "mean": 3.1399999999999997,
+        "std": 0.0,
+        "ci_low": 3.1399999999999997,
+        "ci_high": 3.1399999999999997
+      },
+      "CrossVehicle": {
+        "mean": 0.22999999999999998,
+        "std": 0.0,
+        "ci_low": 0.22999999999999998,
+        "ci_high": 0.22999999999999998
+      },
+      "MeanFPR": {
+        "mean": 1.85,
+        "std": 0.0,
+        "ci_low": 1.85,
+        "ci_high": 1.85
+      },
+      "Deviation": {
+        "mean": 1.35,
+        "std": 0.0,
+        "ci_low": 1.35,
+        "ci_high": 1.35
+      }
+    },
+    "Split Conformal (Massaad et al.)": {
+      "Stationary": {
+        "mean": 0.53,
+        "std": 0.0,
+        "ci_low": 0.53,
+        "ci_high": 0.53
+      },
+      "Highway": {
+        "mean": 1.09,
+        "std": 0.0,
+        "ci_low": 1.09,
+        "ci_high": 1.09
+      },
+      "Dyno": {
+        "mean": 1.55,
+        "std": 0.0,
+        "ci_low": 1.55,
+        "ci_high": 1.55
+      },
+      "CrossVehicle": {
+        "mean": 0.16,
+        "std": 0.0,
+        "ci_low": 0.16,
+        "ci_high": 0.16
+      },
+      "MeanFPR": {
+        "mean": 0.8325,
+        "std": 0.0,
+        "ci_low": 0.8325,
+        "ci_high": 0.8325
+      },
+      "Deviation": {
+        "mean": 0.3325,
+        "std": 0.0,
+        "ci_low": 0.3325,
+        "ci_high": 0.3325
+      }
+    },
+    "Unguarded Online ACI (Gibbs & Candes)": {
+      "Stationary": {
+        "mean": 0.62,
+        "std": 0.0,
+        "ci_low": 0.62,
+        "ci_high": 0.62
+      },
+      "Highway": {
+        "mean": 0.5599999999999999,
+        "std": 0.0,
+        "ci_low": 0.5599999999999999,
+        "ci_high": 0.5599999999999999
+      },
+      "Dyno": {
+        "mean": 0.47000000000000003,
+        "std": 0.0,
+        "ci_low": 0.47000000000000003,
+        "ci_high": 0.47000000000000003
+      },
+      "CrossVehicle": {
+        "mean": 0.53,
+        "std": 0.0,
+        "ci_low": 0.53,
+        "ci_high": 0.53
+      },
+      "MeanFPR": {
+        "mean": 0.5449999999999999,
+        "std": 0.0,
+        "ci_low": 0.5449999999999999,
+        "ci_high": 0.5449999999999999
+      },
+      "Deviation": {
+        "mean": 0.04499999999999993,
+        "std": 0.0,
+        "ci_low": 0.04499999999999993,
+        "ci_high": 0.04499999999999993
+      }
+    },
+    "Alert-Gated Online ACI (Skip on Alert)": {
+      "Stationary": {
+        "mean": 1.52,
+        "std": 0.0,
+        "ci_low": 1.52,
+        "ci_high": 1.52
+      },
+      "Highway": {
+        "mean": 2.35,
+        "std": 0.0,
+        "ci_low": 2.35,
+        "ci_high": 2.35
+      },
+      "Dyno": {
+        "mean": 3.0700000000000003,
+        "std": 0.0,
+        "ci_low": 3.0700000000000003,
+        "ci_high": 3.0700000000000003
+      },
+      "CrossVehicle": {
+        "mean": 0.62,
+        "std": 0.0,
+        "ci_low": 0.62,
+        "ci_high": 0.62
+      },
+      "MeanFPR": {
+        "mean": 1.8900000000000001,
+        "std": 0.0,
+        "ci_low": 1.8900000000000001,
+        "ci_high": 1.8900000000000001
+      },
+      "Deviation": {
+        "mean": 1.3900000000000001,
+        "std": 0.0,
+        "ci_low": 1.3900000000000001,
+        "ci_high": 1.3900000000000001
+      }
+    },
+    "Non-Neural Delta + Conformal": {
+      "Stationary": {
+        "mean": 0.62,
+        "std": 0.0,
+        "ci_low": 0.62,
+        "ci_high": 0.62
+      },
+      "Highway": {
+        "mean": 1.51,
+        "std": 0.0,
+        "ci_low": 1.51,
+        "ci_high": 1.51
+      },
+      "Dyno": {
+        "mean": 5.88,
+        "std": 0.0,
+        "ci_low": 5.88,
+        "ci_high": 5.88
+      },
+      "CrossVehicle": {
+        "mean": 46.92,
+        "std": 0.0,
+        "ci_low": 46.92,
+        "ci_high": 46.92
+      },
+      "MeanFPR": {
+        "mean": 13.7325,
+        "std": 0.0,
+        "ci_low": 13.7325,
+        "ci_high": 13.7325
+      },
+      "Deviation": {
+        "mean": 13.2325,
+        "std": 0.0,
+        "ci_low": 13.2325,
+        "ci_high": 13.2325
+      }
+    },
+    "ConformalSpike (Proposed G-RW-CRC)": {
+      "Stationary": {
+        "mean": 0.84,
+        "std": 0.0,
+        "ci_low": 0.84,
+        "ci_high": 0.84
+      },
+      "Highway": {
+        "mean": 1.37,
+        "std": 0.0,
+        "ci_low": 1.37,
+        "ci_high": 1.37
+      },
+      "Dyno": {
+        "mean": 0.6799999999999999,
+        "std": 0.0,
+        "ci_low": 0.6799999999999999,
+        "ci_high": 0.6799999999999999
+      },
+      "CrossVehicle": {
+        "mean": 0.38,
+        "std": 0.0,
+        "ci_low": 0.38,
+        "ci_high": 0.38
+      },
+      "MeanFPR": {
+        "mean": 0.8174999999999999,
+        "std": 0.0,
+        "ci_low": 0.8174999999999999,
+        "ci_high": 0.8174999999999999
+      },
+      "Deviation": {
+        "mean": 0.3174999999999999,
+        "std": 0.0,
+        "ci_low": 0.3174999999999999,
+        "ci_high": 0.3174999999999999
+      }
+    }
+  },
+  "table_ii_attack_detection": {
+    "Split Conformal + Memoryless SNN": {
+      "HCRL DoS Flooding": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 95.56119213696893,
+        "std": 0.0,
+        "ci_low": 95.56119213696893,
+        "ci_high": 95.56119213696893
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 67.84184514003296,
+        "std": 0.0,
+        "ci_low": 67.84184514003296,
+        "ci_high": 67.84184514003296
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 99.9670727691801,
+        "std": 0.0,
+        "ci_low": 99.9670727691801,
+        "ci_high": 99.9670727691801
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 6.896551724137931,
+        "std": 0.0,
+        "ci_low": 6.896551724137931,
+        "ci_high": 6.896551724137931
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 7.68409818569904,
+        "std": 0.0,
+        "ci_low": 7.68409818569904,
+        "ci_high": 7.68409818569904
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.21344717182497333,
+        "std": 0.0,
+        "ci_low": 0.21344717182497333,
+        "ci_high": 0.21344717182497333
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 92.63607257203842,
+        "std": 0.0,
+        "ci_low": 92.63607257203842,
+        "ci_high": 92.63607257203842
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 92.42262540021345,
+        "std": 0.0,
+        "ci_low": 92.42262540021345,
+        "ci_high": 92.42262540021345
+      }
+    },
+    "Stateful SNN + Unguarded ACI": {
+      "HCRL DoS Flooding": {
+        "mean": 0.32,
+        "std": 0.0,
+        "ci_low": 0.32,
+        "ci_high": 0.32
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 0.3804692454026633,
+        "std": 0.0,
+        "ci_low": 0.3804692454026633,
+        "ci_high": 0.3804692454026633
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 0.16463615409944024,
+        "std": 0.0,
+        "ci_low": 0.16463615409944024,
+        "ci_high": 0.16463615409944024
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 2.586206896551724,
+        "std": 0.0,
+        "ci_low": 2.586206896551724,
+        "ci_high": 2.586206896551724
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 0.96051227321238,
+        "std": 0.0,
+        "ci_low": 0.96051227321238,
+        "ci_high": 0.96051227321238
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 2.9882604055496262,
+        "std": 0.0,
+        "ci_low": 2.9882604055496262,
+        "ci_high": 2.9882604055496262
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 4.8025613660619,
+        "std": 0.0,
+        "ci_low": 4.8025613660619,
+        "ci_high": 4.8025613660619
+      }
+    },
+    "Stateful SNN + Alert-Gated ACI": {
+      "HCRL DoS Flooding": {
+        "mean": 0.32,
+        "std": 0.0,
+        "ci_low": 0.32,
+        "ci_high": 0.32
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 91.43944197844007,
+        "std": 0.0,
+        "ci_low": 91.43944197844007,
+        "ci_high": 91.43944197844007
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 7.0840197693574956,
+        "std": 0.0,
+        "ci_low": 7.0840197693574956,
+        "ci_high": 7.0840197693574956
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 92.59137306552519,
+        "std": 0.0,
+        "ci_low": 92.59137306552519,
+        "ci_high": 92.59137306552519
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 4.655172413793104,
+        "std": 0.0,
+        "ci_low": 4.655172413793104,
+        "ci_high": 4.655172413793104
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 7.68409818569904,
+        "std": 0.0,
+        "ci_low": 7.68409818569904,
+        "ci_high": 7.68409818569904
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 88.0469583778015,
+        "std": 0.0,
+        "ci_low": 88.0469583778015,
+        "ci_high": 88.0469583778015
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 86.87299893276415,
+        "std": 0.0,
+        "ci_low": 86.87299893276415,
+        "ci_high": 86.87299893276415
+      }
+    },
+    "Statistical/Timing-Entropy IDS": {
+      "HCRL DoS Flooding": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 10.46290424857324,
+        "std": 0.0,
+        "ci_low": 10.46290424857324,
+        "ci_high": 10.46290424857324
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 3.9209225700164745,
+        "std": 0.0,
+        "ci_low": 3.9209225700164745,
+        "ci_high": 3.9209225700164745
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 3.7207770826473494,
+        "std": 0.0,
+        "ci_low": 3.7207770826473494,
+        "ci_high": 3.7207770826473494
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 3.620689655172414,
+        "std": 0.0,
+        "ci_low": 3.620689655172414,
+        "ci_high": 3.620689655172414
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 0.7470651013874066,
+        "std": 0.0,
+        "ci_low": 0.7470651013874066,
+        "ci_high": 0.7470651013874066
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.10672358591248667,
+        "std": 0.0,
+        "ci_low": 0.10672358591248667,
+        "ci_high": 0.10672358591248667
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      }
+    },
+    "Non-Neural Delta + Conformal": {
+      "HCRL DoS Flooding": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 46.6708941027267,
+        "std": 0.0,
+        "ci_low": 46.6708941027267,
+        "ci_high": 46.6708941027267
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 20.296540362438222,
+        "std": 0.0,
+        "ci_low": 20.296540362438222,
+        "ci_high": 20.296540362438222
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 18.011195258478764,
+        "std": 0.0,
+        "ci_low": 18.011195258478764,
+        "ci_high": 18.011195258478764
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 53.681963713980785,
+        "std": 0.0,
+        "ci_low": 53.681963713980785,
+        "ci_high": 53.681963713980785
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 34.15154749199573,
+        "std": 0.0,
+        "ci_low": 34.15154749199573,
+        "ci_high": 34.15154749199573
+      }
+    },
+    "INT8 Tiny-MLP Autoencoder": {
+      "HCRL DoS Flooding": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 94.92707672796449,
+        "std": 0.0,
+        "ci_low": 94.92707672796449,
+        "ci_high": 94.92707672796449
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 73.83855024711697,
+        "std": 0.0,
+        "ci_low": 73.83855024711697,
+        "ci_high": 73.83855024711697
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 99.53901876852157,
+        "std": 0.0,
+        "ci_low": 99.53901876852157,
+        "ci_high": 99.53901876852157
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 7.68409818569904,
+        "std": 0.0,
+        "ci_low": 7.68409818569904,
+        "ci_high": 7.68409818569904
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.10672358591248667,
+        "std": 0.0,
+        "ci_low": 0.10672358591248667,
+        "ci_high": 0.10672358591248667
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 91.78228388473852,
+        "std": 0.0,
+        "ci_low": 91.78228388473852,
+        "ci_high": 91.78228388473852
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 89.22091782283886,
+        "std": 0.0,
+        "ci_low": 89.22091782283886,
+        "ci_high": 89.22091782283886
+      }
+    },
+    "INT8 Micro-GRU": {
+      "HCRL DoS Flooding": {
+        "mean": 99.98666666666666,
+        "std": 0.0,
+        "ci_low": 99.98666666666666,
+        "ci_high": 99.98666666666666
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 95.94166138237159,
+        "std": 0.0,
+        "ci_low": 95.94166138237159,
+        "ci_high": 95.94166138237159
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 82.668863261944,
+        "std": 0.0,
+        "ci_low": 82.668863261944,
+        "ci_high": 82.668863261944
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 99.60487323016135,
+        "std": 0.0,
+        "ci_low": 99.60487323016135,
+        "ci_high": 99.60487323016135
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 6.724137931034482,
+        "std": 0.0,
+        "ci_low": 6.724137931034482,
+        "ci_high": 6.724137931034482
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 7.68409818569904,
+        "std": 0.0,
+        "ci_low": 7.68409818569904,
+        "ci_high": 7.68409818569904
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 89.64781216648879,
+        "std": 0.0,
+        "ci_low": 89.64781216648879,
+        "ci_high": 89.64781216648879
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 89.32764140875133,
+        "std": 0.0,
+        "ci_low": 89.32764140875133,
+        "ci_high": 89.32764140875133
+      }
+    },
+    "ConformalSpike (Proposed G-RW-CRC)": {
+      "HCRL DoS Flooding": {
+        "mean": 99.98666666666666,
+        "std": 0.0,
+        "ci_low": 99.98666666666666,
+        "ci_high": 99.98666666666666
+      },
+      "HCRL Fuzzy Attack": {
+        "mean": 97.59036144578313,
+        "std": 0.0,
+        "ci_low": 97.59036144578313,
+        "ci_high": 97.59036144578313
+      },
+      "HCRL RPM Spoofing": {
+        "mean": 99.76935749588138,
+        "std": 0.0,
+        "ci_low": 99.76935749588138,
+        "ci_high": 99.76935749588138
+      },
+      "HCRL Gear Spoofing": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "ORNL ROAD Correlated Masquerade": {
+        "mean": 6.896551724137931,
+        "std": 0.0,
+        "ci_low": 6.896551724137931,
+        "ci_high": 6.896551724137931
+      },
+      "ORNL ROAD Max Speedometer Masquerade": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "ORNL ROAD Max Coolant Masquerade": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "ORNL ROAD Reverse Light Off Masquerade": {
+        "mean": 99.89327641408752,
+        "std": 0.0,
+        "ci_low": 99.89327641408752,
+        "ci_high": 99.89327641408752
+      },
+      "ORNL ROAD Accelerator Masquerade": {
+        "mean": 99.89327641408752,
+        "std": 0.0,
+        "ci_low": 99.89327641408752,
+        "ci_high": 99.89327641408752
+      }
+    }
+  },
+  "table_v_ablation_study": [
+    {
+      "Configuration": "Full Proposed ConformalSpike",
+      "MeanFPR": {
+        "mean": 0.6675,
+        "std": 0.0,
+        "ci_low": 0.6675,
+        "ci_high": 0.6675
+      },
+      "TPRSpeedMasq": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "TPRCorrMasq": {
+        "mean": 2.9310344827586206,
+        "std": 0.0,
+        "ci_low": 2.9310344827586206,
+        "ci_high": 2.9310344827586206
+      },
+      "WorstACs": 2432,
+      "WCET_us": 20.21
+    },
+    {
+      "Configuration": "w/o ID-Conditioning (Unconditional)",
+      "MeanFPR": {
+        "mean": 0.6649999999999999,
+        "std": 0.0,
+        "ci_low": 0.6649999999999999,
+        "ci_high": 0.6649999999999999
+      },
+      "TPRSpeedMasq": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "TPRCorrMasq": {
+        "mean": 3.189655172413793,
+        "std": 0.0,
+        "ci_low": 3.189655172413793,
+        "ci_high": 3.189655172413793
+      },
+      "WorstACs": 2432,
+      "WCET_us": 20.21
+    },
+    {
+      "Configuration": "w/o Magnitude Shock (Sign-Only 1-LSB)",
+      "MeanFPR": {
+        "mean": 1.0175,
+        "std": 0.0,
+        "ci_low": 1.0175,
+        "ci_high": 1.0175
+      },
+      "TPRSpeedMasq": {
+        "mean": 0.42689434364994666,
+        "std": 0.0,
+        "ci_low": 0.42689434364994666,
+        "ci_high": 0.42689434364994666
+      },
+      "TPRCorrMasq": {
+        "mean": 6.896551724137931,
+        "std": 0.0,
+        "ci_low": 6.896551724137931,
+        "ci_high": 6.896551724137931
+      },
+      "WorstACs": 2432,
+      "WCET_us": 20.21
+    },
+    {
+      "Configuration": "w/o k-WTA Inhibition (Uncapped K=64)",
+      "MeanFPR": {
+        "mean": 0.6675,
+        "std": 0.0,
+        "ci_low": 0.6675,
+        "ci_high": 0.6675
+      },
+      "TPRSpeedMasq": {
+        "mean": 100.0,
+        "std": 0.0,
+        "ci_low": 100.0,
+        "ci_high": 100.0
+      },
+      "TPRCorrMasq": {
+        "mean": 2.9310344827586206,
+        "std": 0.0,
+        "ci_low": 2.9310344827586206,
+        "ci_high": 2.9310344827586206
+      },
+      "WorstACs": 7424,
+      "WCET_us": 53.49
+    },
+    {
+      "Configuration": "w/o Quarantine Shield & Staging",
+      "MeanFPR": {
+        "mean": 0.525,
+        "std": 0.0,
+        "ci_low": 0.525,
+        "ci_high": 0.525
+      },
+      "TPRSpeedMasq": {
+        "mean": 3.84204909284952,
+        "std": 0.0,
+        "ci_low": 3.84204909284952,
+        "ci_high": 3.84204909284952
+      },
+      "TPRCorrMasq": {
+        "mean": 2.5,
+        "std": 0.0,
+        "ci_low": 2.5,
+        "ci_high": 2.5
+      },
+      "WorstACs": 2432,
+      "WCET_us": 20.21
+    },
+    {
+      "Configuration": "w/o Atomic Shadow Rollback",
+      "MeanFPR": {
+        "mean": 0.5475,
+        "std": 0.0,
+        "ci_low": 0.5475,
+        "ci_high": 0.5475
+      },
+      "TPRSpeedMasq": {
+        "mean": 18.996798292422625,
+        "std": 0.0,
+        "ci_low": 18.996798292422625,
+        "ci_high": 18.996798292422625
+      },
+      "TPRCorrMasq": {
+        "mean": 3.103448275862069,
+        "std": 0.0,
+        "ci_low": 3.103448275862069,
+        "ci_high": 3.103448275862069
+      },
+      "WorstACs": 2432,
+      "WCET_us": 20.21
+    }
+  ],
+  "adversarial_pulse_sweep": {
+    "Heuristic Static (mu + 3*sigma)": {
+      "1-on-100-off (1.0%)": {
+        "mean": 93.75,
+        "std": 0.0,
+        "ci_low": 93.75,
+        "ci_high": 93.75
+      },
+      "1-on-50-off (2.0%)": {
+        "mean": 96.875,
+        "std": 0.0,
+        "ci_low": 96.875,
+        "ci_high": 96.875
+      },
+      "1-on-20-off (4.8%)": {
+        "mean": 97.40259740259741,
+        "std": 0.0,
+        "ci_low": 97.40259740259741,
+        "ci_high": 97.40259740259741
+      },
+      "1-on-10-off (9.1%)": {
+        "mean": 99.31506849315068,
+        "std": 0.0,
+        "ci_low": 99.31506849315068,
+        "ci_high": 99.31506849315068
+      },
+      "1-on-4-off (20.0%)": {
+        "mean": 99.375,
+        "std": 0.0,
+        "ci_low": 99.375,
+        "ci_high": 99.375
+      },
+      "1-on-2-off (33.3%)": {
+        "mean": 99.625468164794,
+        "std": 0.0,
+        "ci_low": 99.625468164794,
+        "ci_high": 99.625468164794
+      },
+      "1-on-1-off (50.0%)": {
+        "mean": 99.625,
+        "std": 0.0,
+        "ci_low": 99.625,
+        "ci_high": 99.625
+      },
+      "2-on-1-off (66.7%)": {
+        "mean": 99.53139643861293,
+        "std": 0.0,
+        "ci_low": 99.53139643861293,
+        "ci_high": 99.53139643861293
+      },
+      "Continuous (100.0%)": {
+        "mean": 99.5625,
+        "std": 0.0,
+        "ci_low": 99.5625,
+        "ci_high": 99.5625
+      }
+    },
+    "Split Conformal (Massaad et al.)": {
+      "1-on-100-off (1.0%)": {
+        "mean": 93.75,
+        "std": 0.0,
+        "ci_low": 93.75,
+        "ci_high": 93.75
+      },
+      "1-on-50-off (2.0%)": {
+        "mean": 93.75,
+        "std": 0.0,
+        "ci_low": 93.75,
+        "ci_high": 93.75
+      },
+      "1-on-20-off (4.8%)": {
+        "mean": 96.1038961038961,
+        "std": 0.0,
+        "ci_low": 96.1038961038961,
+        "ci_high": 96.1038961038961
+      },
+      "1-on-10-off (9.1%)": {
+        "mean": 97.26027397260275,
+        "std": 0.0,
+        "ci_low": 97.26027397260275,
+        "ci_high": 97.26027397260275
+      },
+      "1-on-4-off (20.0%)": {
+        "mean": 94.0625,
+        "std": 0.0,
+        "ci_low": 94.0625,
+        "ci_high": 94.0625
+      },
+      "1-on-2-off (33.3%)": {
+        "mean": 95.50561797752809,
+        "std": 0.0,
+        "ci_low": 95.50561797752809,
+        "ci_high": 95.50561797752809
+      },
+      "1-on-1-off (50.0%)": {
+        "mean": 96.5,
+        "std": 0.0,
+        "ci_low": 96.5,
+        "ci_high": 96.5
+      },
+      "2-on-1-off (66.7%)": {
+        "mean": 95.68884723523898,
+        "std": 0.0,
+        "ci_low": 95.68884723523898,
+        "ci_high": 95.68884723523898
+      },
+      "Continuous (100.0%)": {
+        "mean": 96.0,
+        "std": 0.0,
+        "ci_low": 96.0,
+        "ci_high": 96.0
+      }
+    },
+    "Unguarded Online ACI (Gibbs & Candes)": {
+      "1-on-100-off (1.0%)": {
+        "mean": 87.5,
+        "std": 0.0,
+        "ci_low": 87.5,
+        "ci_high": 87.5
+      },
+      "1-on-50-off (2.0%)": {
+        "mean": 53.125,
+        "std": 0.0,
+        "ci_low": 53.125,
+        "ci_high": 53.125
+      },
+      "1-on-20-off (4.8%)": {
+        "mean": 23.376623376623375,
+        "std": 0.0,
+        "ci_low": 23.376623376623375,
+        "ci_high": 23.376623376623375
+      },
+      "1-on-10-off (9.1%)": {
+        "mean": 15.068493150684931,
+        "std": 0.0,
+        "ci_low": 15.068493150684931,
+        "ci_high": 15.068493150684931
+      },
+      "1-on-4-off (20.0%)": {
+        "mean": 5.3125,
+        "std": 0.0,
+        "ci_low": 5.3125,
+        "ci_high": 5.3125
+      },
+      "1-on-2-off (33.3%)": {
+        "mean": 2.8089887640449436,
+        "std": 0.0,
+        "ci_low": 2.8089887640449436,
+        "ci_high": 2.8089887640449436
+      },
+      "1-on-1-off (50.0%)": {
+        "mean": 2.0,
+        "std": 0.0,
+        "ci_low": 2.0,
+        "ci_high": 2.0
+      },
+      "2-on-1-off (66.7%)": {
+        "mean": 1.218369259606373,
+        "std": 0.0,
+        "ci_low": 1.218369259606373,
+        "ci_high": 1.218369259606373
+      },
+      "Continuous (100.0%)": {
+        "mean": 0.6875,
+        "std": 0.0,
+        "ci_low": 0.6875,
+        "ci_high": 0.6875
+      }
+    },
+    "Alert-Gated Online ACI (Skip on Alert)": {
+      "1-on-100-off (1.0%)": {
+        "mean": 93.75,
+        "std": 0.0,
+        "ci_low": 93.75,
+        "ci_high": 93.75
+      },
+      "1-on-50-off (2.0%)": {
+        "mean": 81.25,
+        "std": 0.0,
+        "ci_low": 81.25,
+        "ci_high": 81.25
+      },
+      "1-on-20-off (4.8%)": {
+        "mean": 83.11688311688312,
+        "std": 0.0,
+        "ci_low": 83.11688311688312,
+        "ci_high": 83.11688311688312
+      },
+      "1-on-10-off (9.1%)": {
+        "mean": 87.67123287671232,
+        "std": 0.0,
+        "ci_low": 87.67123287671232,
+        "ci_high": 87.67123287671232
+      },
+      "1-on-4-off (20.0%)": {
+        "mean": 83.75,
+        "std": 0.0,
+        "ci_low": 83.75,
+        "ci_high": 83.75
+      },
+      "1-on-2-off (33.3%)": {
+        "mean": 85.58052434456928,
+        "std": 0.0,
+        "ci_low": 85.58052434456928,
+        "ci_high": 85.58052434456928
+      },
+      "1-on-1-off (50.0%)": {
+        "mean": 88.5,
+        "std": 0.0,
+        "ci_low": 88.5,
+        "ci_high": 88.5
+      },
+      "2-on-1-off (66.7%)": {
+        "mean": 87.06654170571696,
+        "std": 0.0,
+        "ci_low": 87.06654170571696,
+        "ci_high": 87.06654170571696
+      },
+      "Continuous (100.0%)": {
+        "mean": 88.375,
+        "std": 0.0,
+        "ci_low": 88.375,
+        "ci_high": 88.375
+      }
+    },
+    "ConformalSpike (Proposed G-RW-CRC)": {
+      "1-on-100-off (1.0%)": {
+        "mean": 93.75,
+        "std": 0.0,
+        "ci_low": 93.75,
+        "ci_high": 93.75
+      },
+      "1-on-50-off (2.0%)": {
+        "mean": 96.875,
+        "std": 0.0,
+        "ci_low": 96.875,
+        "ci_high": 96.875
+      },
+      "1-on-20-off (4.8%)": {
+        "mean": 97.40259740259741,
+        "std": 0.0,
+        "ci_low": 97.40259740259741,
+        "ci_high": 97.40259740259741
+      },
+      "1-on-10-off (9.1%)": {
+        "mean": 99.31506849315068,
+        "std": 0.0,
+        "ci_low": 99.31506849315068,
+        "ci_high": 99.31506849315068
+      },
+      "1-on-4-off (20.0%)": {
+        "mean": 99.6875,
+        "std": 0.0,
+        "ci_low": 99.6875,
+        "ci_high": 99.6875
+      },
+      "1-on-2-off (33.3%)": {
+        "mean": 99.812734082397,
+        "std": 0.0,
+        "ci_low": 99.812734082397,
+        "ci_high": 99.812734082397
+      },
+      "1-on-1-off (50.0%)": {
+        "mean": 99.875,
+        "std": 0.0,
+        "ci_low": 99.875,
+        "ci_high": 99.875
+      },
+      "2-on-1-off (66.7%)": {
+        "mean": 99.90627928772258,
+        "std": 0.0,
+        "ci_low": 99.90627928772258,
+        "ci_high": 99.90627928772258
+      },
+      "Continuous (100.0%)": {
+        "mean": 99.9375,
+        "std": 0.0,
+        "ci_low": 99.9375,
+        "ci_high": 99.9375
+      }
+    }
+  },
+  "cal_score_summary": {
+    "mean": 0.22719310224056244,
+    "std": 0.08532389998435974,
+    "q99_5": 0.6966572403907776
+  }
+}

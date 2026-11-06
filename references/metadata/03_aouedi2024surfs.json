@@ -1,0 +1,17 @@
+{
+  "index": 3,
+  "bib_key": "aouedi2024surfs",
+  "title": "SURFS: Sustainable IntrUsion Detection with HieraRchical Federated Spiking Neural Networks",
+  "authors": [
+    "Ons Aouedi",
+    "Kandaraj Piamrat"
+  ],
+  "year": 2024,
+  "venue": "IEEE International Conference on Communications (ICC)",
+  "venue_type": "Conference (Flagship)",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1109/icc51166.2024.10622560",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

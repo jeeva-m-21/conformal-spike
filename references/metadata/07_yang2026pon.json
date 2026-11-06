@@ -1,0 +1,19 @@
+{
+  "index": 7,
+  "bib_key": "yang2026pon",
+  "title": "PON: A Packet-Observation Spiking Neural Network for Header-Based Real-Time Intrusion Detection",
+  "authors": [
+    "Phu Nguyen Phan Hai",
+    "Cam Doan Ngoc",
+    "Bao Bui Quoc",
+    "Trang Hoang"
+  ],
+  "year": 2026,
+  "venue": "EAI Endorsed Transactions on Industrial Networks and Intelligent Systems",
+  "venue_type": "Journal",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.4108/eetinis.133.13277",
+  "abstract": "Intrusion detection in IoT environments requires real-time and lightweight systems to mitigate the computational overhead of deep packet inspection (DPI) at the network-edge. \\myhl{This paper proposes PON, a packet-observation spiking neural network (SNN) for IoT intrusion detection using packet headers.} The system operates online at the individual packet-level, incorporating a behavior-adaptive redundancy filter that reduces edge processing traffic volume by over 79 percent. Header features are constructed from 64-byte normalized headers alongside a sliding-window source IP diversity ratio to capture the behaviors of diverse cyber attacks. \\myhl{PON performs header-only inference using these features, while payload data are not forwarded to the classifier.} The \\myhl{PON} architecture combines 1D convolution with leaky-integrate-and-fire (LIF) neurons and a Sparse Attack Detector (SAD) designed to mitigate temporal spike dilution, thereby boosting rare attack detection. Evaluated on the mixed traffic streams of the CIC-IoT2023 dataset, the proposed SNN model combined with the SAD module reaches a Macro F1 score of 92.48 percent and a detection rate of 90.23 percent, increasing the detection rate on rare attack categories by up to 21.5 percentage points compared to published reference models. Trained ternary quantization (TTQ) reduces the storage footprint from 30.69 KB in float32 format to 13.82 KB in ternary format, achieving a 2.2 fold overall model size reduction by compressing the core spiking weights 16 fold. These results demonstrate that the proposed model provides competitive detection accuracy and high memory efficiency, making it suitable for edge deployment.",
+  "pdf_url": null,
+  "local_pdf": null
+}

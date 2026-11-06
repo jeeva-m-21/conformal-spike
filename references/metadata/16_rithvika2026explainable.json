@@ -1,0 +1,17 @@
+{
+  "index": 16,
+  "bib_key": "rithvika2026explainable",
+  "title": "Explainable & Deterministic Intrusion Detection for CAN-FD: A Logic Extraction Framework",
+  "authors": [
+    "Rithvika G",
+    "Radha R"
+  ],
+  "year": 2026,
+  "venue": "Scientific Reports (Nature)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1038/s41598-026-57799-2",
+  "abstract": "",
+  "pdf_url": "https://www.nature.com/articles/s41598-026-57799-2.pdf",
+  "local_pdf": "pdfs/16_rithvika2026explainable.pdf"
+}

@@ -1,0 +1,20 @@
+{
+  "index": 26,
+  "bib_key": "ayat2026idsxgb",
+  "title": "IDS_XGB: Next-Generation Intrusion Detection for Automotive CAN Networks",
+  "authors": [
+    "Yassine Ayat",
+    "Wiame Benzekri",
+    "Ali El Moussati",
+    "Abdelaziz El Aouni",
+    "Ismail Mir"
+  ],
+  "year": 2026,
+  "venue": "Peer-to-Peer Networking and Applications (Springer)",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1007/s12083-026-02264-0",
+  "abstract": "",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12083-026-02264-0.pdf",
+  "local_pdf": "pdfs/26_ayat2026idsxgb.pdf"
+}

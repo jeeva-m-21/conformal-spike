@@ -1,0 +1,20 @@
+{
+  "index": 20,
+  "bib_key": "al2026lightweight",
+  "title": "Lightweight CNN-Based Intrusion Detection for CAN Bus Networks",
+  "authors": [
+    "Thi-Thu-Huong Le",
+    "Andro Aprila Adiputra",
+    "Anak Agung Ngurah Dharmawangsa",
+    "Hyunjin Jang",
+    "Howon Kim"
+  ],
+  "year": 2026,
+  "venue": "IEEE Access",
+  "venue_type": "Journal",
+  "pillar": "CAN Bus IDS",
+  "doi": "10.1109/access.2026.3654521",
+  "abstract": "",
+  "pdf_url": null,
+  "local_pdf": null
+}

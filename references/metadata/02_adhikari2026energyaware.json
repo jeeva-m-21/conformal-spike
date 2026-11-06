@@ -1,0 +1,18 @@
+{
+  "index": 2,
+  "bib_key": "adhikari2026energyaware",
+  "title": "An energy-aware and lightweight spiking neural network framework for real-time intrusion detection in IoT networks",
+  "authors": [
+    "Priyangshu Adhikari",
+    "Logeswari Govindaraj",
+    "Tamilarasi Kathirvel Murugan"
+  ],
+  "year": 2026,
+  "venue": "Scientific Reports (Nature)",
+  "venue_type": "Journal",
+  "pillar": "Neuromorphic/SNN",
+  "doi": "10.1038/s41598-026-61822-x",
+  "abstract": "",
+  "pdf_url": "https://www.nature.com/articles/s41598-026-61822-x.pdf",
+  "local_pdf": "pdfs/02_adhikari2026energyaware.pdf"
+}
